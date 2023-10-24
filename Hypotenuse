@@ -1,0 +1,14 @@
+#include <stdio.h>
+//Takes two doubles and calculates the hypotenuse of a right triangle
+
+int main(){
+	double num1,num2, num3;
+
+	printf("Enter the two leg sides");
+	scanf("%f", num1);
+	scanf("%f", num2);
+
+	num3 = sqrt(num1^2 * num2^2);
+
+	prinf("%f", num3);
+}
