@@ -28,7 +28,6 @@ int main(){
 			ans = log10(num1);
 			printf("%.2lf\n",ans);
 		}//square
-			
 		else if(operator == 's'){
 			printf("First number: ");
 			scanf("%lf", &num1);
