@@ -1,0 +1,1 @@
+int gameLogic(int userWeapon, int computerWeapon, int userScore, int computerScore);
